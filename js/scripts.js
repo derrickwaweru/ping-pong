@@ -22,6 +22,8 @@ $(document).ready(function(){
     event.preventDefault();
     var number1=String(parseInt($("input#num1").val()));
     var result=countUp(number1);
-    $("#output").text(result);
+    result.forEach(function(pong){
+    $("#output").append('<li>'+pong+'</li>');
+  });
   });
 });

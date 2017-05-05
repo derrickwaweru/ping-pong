@@ -1,18 +1,20 @@
 .ping{
   background-color: green;
-  text-align:center;
   padding:40px;
+  text-align: center;
 }
 .about{
   font-family: sans-serif;
   font-weight: bold;
   padding:5px;
-  margin-left: 1px;
   margin-top: 2px;
   background-color: white;
+  text-align:left;
+  background-color: white;
+  height:800px;
 }
 .play{
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   font-family: fantasy;
 }
